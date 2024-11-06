@@ -5,9 +5,60 @@
     <title>Exercice hebdomadaire 8</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <form class="product" action="#">
+      <div class="product-group">
+        <img class="image" src="image/Product picture.png" alt="Brocolis" />
+        <div class="info">
+          <h1 class="type">Brocoli</h1>
+          <h2 class="stockage">en stock</h2>
+        </div>
+        <h1 class="price">CHF 4.35</h1>
+      </div>
+
+      <div class="product-group">
+        <img class="image" src="image/Product picture 2.png" alt="Gruyère" />
+        <div class="info">
+          <h1 class="type">Le Gruyère</h1>
+          <h2 class="stockage">en stock</h2>
+        </div>
+        <h1 class="price">CHF 11.00</h1>
+      </div>
+
+      <div class="product-group">
+        <img
+          class="image"
+          src="image/Product picture 3.png"
+          alt="Carottes mini"
+        />
+        <div class="info">
+          <h1 class="type">Carottes mini</h1>
+          <h2 class="stockage">plus que 1 en <br />stock</h2>
+        </div>
+        <h1 class="price">CHF 5.20</h1>
+      </div>
+
+      <div class="product-group">
+        <img
+          class="image"
+          src="image/Product picture 4.png"
+          alt="Chips paprika Zweifel"
+        />
+        <div class="info">
+          <h1 class="type">Chips paprika Zweifel</h1>
+          <h2 class="stockage">en stock</h2>
+        </div>
+        <h1 class="price">CHF 5.95</h1>
+      </div>
+      <button class="pay-button" type="submit">Passer à la caisse</button>
+    </form>
 
     <script src="js/main.js" type="module"></script>
   </body>
