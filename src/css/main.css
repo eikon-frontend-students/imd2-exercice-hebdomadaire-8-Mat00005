@@ -90,6 +90,7 @@ video {
   font-weight: 700;
   line-height: normal;
   transition-duration: 1s;
+  border: none;
 }
 
 .pay-button:hover {
